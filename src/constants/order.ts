@@ -1,0 +1,10 @@
+const CONSTANTS = {
+  ORDER_STATUS_CLOSED: -1,  // 订单关闭
+  ORDER_STATUS_WAIT_PAY: 0, // 待支付
+  ORDER_STATUS_WAIT_DILIVERY: 1,  // 已支付待发货
+  ORDER_STATUS_WAIT_CONFRIM: 2,  // 已发货待确认
+  ORDER_STATUS_WAIT_EVALUAT: 3,  // 确认收货待评价
+  ORDER_STATUS_EVALUATED: 3,  // 确认收货待评价
+}
+
+export default CONSTANTS

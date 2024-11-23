@@ -1,0 +1,21 @@
+{
+  "apps": {
+    "name": "nest-mall-backend",
+    "cwd": "/root/services/nest-mall-backend",
+    "script": "npm run start:prod",
+    "error_file": "pm2-logs/error.log",
+    "out_file": "pm2-logs/out.log",
+    "pid_file": "./pid",
+    "watch": "false",
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "logrotate": {
+      "compress": true,
+      "max_size": "10M",
+      "retain": 10,
+      "rotateInterval": "0 0 * * *",
+      "dateFormat": "YYYY-MM-DD_HH",
+      "extension": ".log",
+      "log_format": "{\"date\": \"YYYY-MM-DD HH:mm Z\", \"message\": \"<%= message %>\"}"
+    }
+  }
+}
