@@ -1,7 +1,9 @@
 
 ## Description
 
-一个用Nest.js实现的简单的接口
+一个用Nest.js实现的H5商城后端程序的bff层， 用于对接api工厂以及其他上游平台
+
+<img src="https://github.com/user-attachments/assets/f372a0a4-924d-4f91-b310-5731e62ae6f4" width="360" />
 
 ## Installation
 
